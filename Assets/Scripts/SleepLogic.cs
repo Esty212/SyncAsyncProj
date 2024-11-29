@@ -15,7 +15,7 @@ namespace DefaultNamespace
         
         private void Awake()
         {
-            _button.onClick.AddListener(OnClick);
+            //_button.onClick.AddListener(OnClick);
         }
         
         private void OnClick()
