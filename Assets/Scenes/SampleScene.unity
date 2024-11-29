@@ -686,7 +686,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 563647089}
         m_TargetAssemblyTypeName: LoadingScreen, Assembly-CSharp
-        m_MethodName: RunFileLoaders
+        m_MethodName: MyTest
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -767,6 +767,7 @@ MonoBehaviour:
   - {fileID: 940978485}
   - {fileID: 673429391}
   text: {fileID: 60651785}
+  isPressed: 0
 --- !u!1 &669011351
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,7 +781,6 @@ GameObject:
   - component: {fileID: 669011353}
   - component: {fileID: 669011352}
   - component: {fileID: 669011356}
-  - component: {fileID: 669011357}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -900,18 +900,6 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!114 &669011357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 669011351}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91a85a803e48453995c547281ff3a1a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &673429389
 GameObject:
   m_ObjectHideFlags: 0
